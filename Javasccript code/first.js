@@ -473,6 +473,52 @@
 // array for each element
 // const numbers = [1, 2, 3, 4, 5];
 // numbers.forEach((number) => {
+//     console.log("Number:", number);
 
 
-   
+
+
+
+
+
+function greet() {
+    console.log("Hello!");
+}
+greet();
+
+
+
+
+
+
+
+function greetUser(name) {
+   console.log("Hello, " + name + "!");
+}
+greetUser("Hasnain"); // Output: Hello, Hasnain!
+
+
+
+
+
+function add(a, b) {
+      return a + b;
+   }
+let result = add(5, 10);
+console.log("Sum:", result); // Output: Sum: 15
+
+
+const hiSay = function() {
+    console.log("hi there");
+}
+hiSay();
+
+const multiply = (a, b) => {
+    console.log("Product:", a * b);
+}
+multiply(3, 4); // Output: Product: 12
+multiply(5, 6); // Output: Product: 30
+multiply(7, 8); // Output: Product: 56
+
+
+
